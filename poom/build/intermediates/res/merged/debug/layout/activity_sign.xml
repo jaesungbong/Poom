@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#704C4C4C">
+
+    <ImageView
+        android:id="@+id/signarea"
+        android:layout_width="188dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="183dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/sign_pop_foot_off" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="360dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/sign_pop_text" />
+
+</FrameLayout>

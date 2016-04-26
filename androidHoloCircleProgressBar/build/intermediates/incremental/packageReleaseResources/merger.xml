@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res"/><source path="E:\anDev\work\poom\androidHoloCircleProgressBar\build\generated\res\rs\release"/><source path="E:\anDev\work\poom\androidHoloCircleProgressBar\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res"><file name="ic_launcher" path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="scrubber_control_normal_holo" path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\drawable-hdpi\scrubber_control_normal_holo.png" qualifiers="hdpi-v4" type="drawable"/><file name="scrubber_control_pressed_holo" path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\drawable-hdpi\scrubber_control_pressed_holo.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="scrubber_control_normal_holo" path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\drawable-mdpi\scrubber_control_normal_holo.png" qualifiers="mdpi-v4" type="drawable"/><file name="scrubber_control_pressed_holo" path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\drawable-mdpi\scrubber_control_pressed_holo.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="scrubber_control_normal_holo" path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\drawable-xhdpi\scrubber_control_normal_holo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="scrubber_control_pressed_holo" path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\drawable-xhdpi\scrubber_control_pressed_holo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="holo_circular_progress_bar" path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\menu\holo_circular_progress_bar.xml" qualifiers="" type="menu"/><file path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="HoloCircularProgressBar">
+        <attr format="dimension" name="stroke_width"/>
+        <attr format="float" name="progress"/>
+        <attr format="float" name="marker_progress"/>
+        <attr format="color" name="progress_color"/>
+        <attr format="color" name="progress_background_color"/>
+        <attr format="boolean" name="thumb_visible"/>
+        <attr format="boolean" name="marker_visible"/>
+        <attr name="android:gravity"/>
+    </declare-styleable><attr format="reference" name="circularProgressBarStyle"/></file><file path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="action_settings">Settings</string><string name="app_name">HoloCircularSeekbar</string></file><file path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\main\res\values\styles.xml" qualifiers=""><style name="CircularProgressBarLight">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="stroke_width">5dp</item>
+        <item format="float" name="progress">0.1</item>
+        <item name="progress_color">#ffff4444</item>
+        <item name="progress_background_color">@android:color/darker_gray</item>
+        <item name="marker_visible">true</item>
+        <item name="thumb_visible">true</item>
+    </style><style name="CircularProgressBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="stroke_width">5dp</item>
+        <item format="float" name="progress">0.1</item>
+        <item name="progress_color">#ffff4444</item>
+        <item name="progress_background_color">@android:color/background_light</item>
+        <item name="marker_visible">true</item>
+        <item name="thumb_visible">true</item>
+    </style></file></source><source path="E:\anDev\work\poom\androidHoloCircleProgressBar\build\generated\res\rs\release"/><source path="E:\anDev\work\poom\androidHoloCircleProgressBar\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="E:\anDev\work\poom\androidHoloCircleProgressBar\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="HoloCircularProgressBar"><attr format="dimension" name="stroke_width"/><attr format="float" name="progress"/><attr format="float" name="marker_progress"/><attr format="color" name="progress_color"/><attr format="color" name="progress_background_color"/><attr format="boolean" name="thumb_visible"/><attr format="boolean" name="marker_visible"/><attr name="android:gravity"/></declare-styleable></configuration></mergedItems></merger>

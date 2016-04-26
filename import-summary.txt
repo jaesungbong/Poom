@@ -1,0 +1,173 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AndroidHoloCircleProgressBar:
+* build.gradle
+* gradle.properties
+* ic_launcher-web.png
+* proguard-project.txt
+From AndroidSwitchWidget:
+* proguard-project.txt
+From AndroidUniversalImageLoaderLibrary:
+* pom.xml
+* test-gen\
+* test-gen\com\
+* test-gen\com\nostra13\
+* test-gen\com\nostra13\universalimageloader\
+* test-gen\com\nostra13\universalimageloader\R.java
+* test\
+* test\com\
+* test\com\nostra13\
+* test\com\nostra13\universalimageloader\
+* test\com\nostra13\universalimageloader\core\
+* test\com\nostra13\universalimageloader\core\assist\
+* test\com\nostra13\universalimageloader\core\assist\ImageSizeTest.java
+* test\com\nostra13\universalimageloader\core\download\
+* test\com\nostra13\universalimageloader\core\download\BaseImageDownloaderTest.java
+From HorizontalVariableListView:
+* proguard-project.txt
+From poom:
+* Thumbs.db
+* ic_launcher-web.png
+* proguard-project.txt
+From slidingmenuSupportV7library:
+* LICENSE.txt
+* build.gradle
+* library.iml
+* pom.xml
+From viewpagerindicatorlibrary:
+* pom.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:20.0.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:20.0.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:20.0.0]
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In AndroidAysncHttpMulitPartModifyLibrary:
+* AndroidManifest.xml => androidAysncHttpMulitPartModifyLibrary\src\main\AndroidManifest.xml
+* assets\ => androidAysncHttpMulitPartModifyLibrary\src\main\assets
+* res\ => androidAysncHttpMulitPartModifyLibrary\src\main\res
+* src\ => androidAysncHttpMulitPartModifyLibrary\src\main\java\
+In AndroidHoloCircleProgressBar:
+* AndroidManifest.xml => androidHoloCircleProgressBar\src\main\AndroidManifest.xml
+* assets\ => androidHoloCircleProgressBar\src\main\assets
+* res\ => androidHoloCircleProgressBar\src\main\res\
+* src\ => androidHoloCircleProgressBar\src\main\java\
+In AndroidSwitchWidget:
+* AndroidManifest.xml => androidSwitchWidget\src\main\AndroidManifest.xml
+* assets\ => androidSwitchWidget\src\main\assets
+* res\ => androidSwitchWidget\src\main\res\
+* src\ => androidSwitchWidget\src\main\java\
+In AndroidUniversalImageLoaderLibrary:
+* AndroidManifest.xml => androidUniversalImageLoaderLibrary\src\main\AndroidManifest.xml
+* assets\ => androidUniversalImageLoaderLibrary\src\main\assets
+* res\ => androidUniversalImageLoaderLibrary\src\main\res
+* src\ => androidUniversalImageLoaderLibrary\src\main\java\
+In HorizontalVariableListView:
+* AndroidManifest.xml => horizontalVariableListView\src\main\AndroidManifest.xml
+* assets\ => horizontalVariableListView\src\main\assets
+* res\ => horizontalVariableListView\src\main\res\
+* src\ => horizontalVariableListView\src\main\java\
+In slidingmenuSupportV7library:
+* AndroidManifest.xml => slidingmenuSupportV7library\src\main\AndroidManifest.xml
+* assets\ => slidingmenuSupportV7library\src\main\assets
+* res\ => slidingmenuSupportV7library\src\main\res\
+* src\ => slidingmenuSupportV7library\src\main\java\
+In viewpagerindicatorlibrary:
+* AndroidManifest.xml => viewpagerindicatorlibrary\src\main\AndroidManifest.xml
+* assets\ => viewpagerindicatorlibrary\src\main\assets
+* res\ => viewpagerindicatorlibrary\src\main\res\
+* src\ => viewpagerindicatorlibrary\src\main\java\
+In poom:
+* AndroidManifest.xml => poom\src\main\AndroidManifest.xml
+* assets\ => poom\src\main\assets
+* libs\adsync-sdk.jar => poom\libs\adsync-sdk.jar
+* lint.xml => poom\lint.xml
+* res\ => poom\src\main\res\
+* src\ => poom\src\main\java\
+* face.PNG => face.png
+* gray.PNG => gray.png
+* green.PNG => green.png
+* indicatorone.PNG => indicatorone.png
+* indicatorthree.PNG => indicatorthree.png
+* indicatortwo.PNG => indicatortwo.png
+* like.PNG => like.png
+* noisygray.PNG => noisygray.png
+* pitbull.PNG => pitbull.png
+* puppy.PNG => puppy.png
+* share.PNG => share.png
+* sign.PNG => sign.png
+* smile.PNG => smile.png
+* snowgray.PNG => snowgray.png
+* two.PNG => two.png
+* xbox.PNG => xbox.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

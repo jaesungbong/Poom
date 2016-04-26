@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hamberger_label">Menu on Hamberger</string>
+	<string name="hamberger">Hamberger</string>
+    <string name="app_name">poom</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="github_label">새소식 알림</string>
+	<string name="github">GitHub</string>
+	<string name="about">About</string>
+	<string name="licenses">Licenses</string>
+	<string name="contact">Contact</string>
+	<string name="writestory_hint">2000자 이내로 작성해 주세요</string>
+	<string name="requestsign_hint">내용을 입력하세요</string>
+	<string name="app_id">732986553424265</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="360dp"
+    android:layout_height="84dp"
+    android:background="@drawable/list_frame_bg" >
+
+    <com.project.poom.ImageViewRounded
+        android:id="@+id/donation_act_monthly_item_img"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/two" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="11dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/donation_act_monthly_item_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&apos;우리 복남이를 도와주세요&apos;"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#686868"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/list_icon_clock" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="48dp" >
+
+        <TextView
+            android:id="@+id/donation_act_monthly_item_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:textColor="#a1a1a1"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/myinterest_item_view_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일"
+            android:textColor="#a1a1a1"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/donation_act_monthly_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="48dp"
+        android:text="18:20"
+        android:textColor="#a1a1a1"
+        android:textSize="11sp" />
+
+</FrameLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:background="#44686868" >
+
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/donate_news_point" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/donate_news_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#686868"
+            android:textSize="14sp"
+            android:lineSpacingExtra="10dip" />
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:id="@+id/donate_news_img"
+                android:layout_width="315dp"
+                android:layout_height="170dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_img" />
+            
+            <ImageView 
+                android:layout_width="38dp"
+                android:layout_height="18dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="6dp"
+                android:src="@drawable/donate_news_photonum"
+                android:layout_gravity="right|top"/>
+            
+            <TextView 
+                android:id="@+id/donate_news_imgcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="n"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="right|top"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/donate_news_ymd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#686868"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/donate_news_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textColor="#686868"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

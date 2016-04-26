@@ -1,0 +1,8 @@
+include ':androidAysncHttpMulitPartModifyLibrary'
+include ':androidHoloCircleProgressBar'
+include ':androidSwitchWidget'
+include ':androidUniversalImageLoaderLibrary'
+include ':horizontalVariableListView'
+include ':slidingmenuSupportV7library'
+include ':viewpagerindicatorlibrary'
+include ':poom'

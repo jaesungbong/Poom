@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    style="@drawable/xbox"
+    android:layout_width="309dp"
+    android:layout_height="141dp"
+    android:background="@drawable/share_bg"
+    android:minHeight="141dp"
+    android:minWidth="309dp" >
+
+    <Button
+        android:id="@+id/face"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="68dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="52dp"
+        android:background="@drawable/share_btn_facebook"
+        android:text="" />
+
+    <Button
+        android:id="@+id/kas"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="67dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/share_btn_kakaostory"
+        android:text="" />
+
+    <Button
+        android:id="@+id/katalk"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="68dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="52dp"
+        android:background="@drawable/share_btn_kakaotalk"
+        android:text="" />
+
+</FrameLayout>

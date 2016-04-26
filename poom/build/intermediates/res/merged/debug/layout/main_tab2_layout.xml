@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/profileimg"
+            android:layout_width="360dp"
+            android:layout_height="147dp"
+            android:src="@drawable/main_sign_topimage" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/signlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:divider="#FFFFFF">
+        </ListView>
+
+        <ImageButton
+            android:id="@+id/main_tab2_sort_btn"
+            android:layout_width="49dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="bottom|left"
+            android:background="@drawable/main_btn_deadline" />
+    </FrameLayout>
+
+</LinearLayout>

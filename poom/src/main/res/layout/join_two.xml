@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="125dp" >
+
+        <EditText
+            android:id="@+id/join_two_email"
+            android:layout_width="241dp"
+            android:layout_height="40dp"
+            android:background="@drawable/login_input_frame"
+            android:hint="메일주소를 입력해주세요"
+            android:paddingLeft="15dp"
+            android:textColorHint="#686868"
+            android:textSize="12sp"
+            android:inputType="textEmailAddress" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/delete_btn_Iemail"
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/request_btn_delete"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/join_two_button"
+        android:layout_width="241dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/btn_doublecheck"
+        android:layout_gravity="center_horizontal" />
+    
+    <TextView
+        android:id="@+id/join_two_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="warning"
+        android:textColor="#FF0000"
+        android:visibility="invisible"
+        android:layout_marginTop="9dp" />
+
+</LinearLayout>

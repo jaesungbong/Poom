@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BB000000"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/medal_popup_x"
+        android:layout_width="15dp"
+        android:layout_height="14dp"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/newsdetail_btn_delete" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/medal_popup_pre"
+            android:layout_width="11dp"
+            android:layout_height="19dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/arrow_left" />
+
+        <ImageView
+            android:id="@+id/medal_popup_img"
+            android:layout_width="196dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="15"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/login_graphic" />
+
+        <Button
+            android:id="@+id/medal_popup_next"
+            android:layout_width="11dp"
+            android:layout_height="19dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/arrow_right" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/medal_popup_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="loading"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/medal_popup_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="loading"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/medal_popup_share"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bottom_btn_share" />
+
+</LinearLayout>

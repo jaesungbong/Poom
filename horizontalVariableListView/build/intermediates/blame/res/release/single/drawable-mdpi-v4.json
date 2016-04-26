@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\anDev\\work\\poom\\horizontalVariableListView\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\hlv_overscroll_glow.png",
+        "source": "E:\\anDev\\work\\poom\\horizontalVariableListView\\src\\main\\res\\drawable-mdpi\\hlv_overscroll_glow.png"
+    },
+    {
+        "merged": "E:\\anDev\\work\\poom\\horizontalVariableListView\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\anDev\\work\\poom\\horizontalVariableListView\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\anDev\\work\\poom\\horizontalVariableListView\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\hlv_overscroll_edge.png",
+        "source": "E:\\anDev\\work\\poom\\horizontalVariableListView\\src\\main\\res\\drawable-mdpi\\hlv_overscroll_edge.png"
+    }
+]

@@ -1,0 +1,60 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light">
+        <item name="actionBarSize">80dp</item>
+        <item name="actionBarStyle">@style/CustomActionStyle</item>
+    </style>
+
+    <style name="CustomActionStyle" parent="Widget.AppCompat.Light.Base.ActionBar">
+        <item name="android:background">@drawable/actionBarBackground</item>
+    </style>
+
+    <style name="mySwitchStyle">
+        <item name="track">@drawable/switch_track_green</item>
+        <item name="thumb">@drawable/background_fenced</item>
+        <item name="switchTextAppearanceAttrib">@style/mySwitchTextAppearance</item>
+        <item name="textOn">ON</item>
+        <item name="textOff">OFF</item>
+        <item name="pushStyle">false</item>
+        <item name="textOnThumb">true</item>
+        <item name="thumbExtraMovement">0dp</item>
+        <item name="thumbTextPadding">6dp</item>
+        <item name="trackTextPadding">6dp</item>
+        <item name="switchMinWidth">69dp</item>
+        <item name="switchMinHeight">36dp</item>
+        <item name="switchPadding">6dp</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/MyActionBar.TitleTextStyle</item>
+        <item name="android:actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+    </style>
+
+    <style name="MyActionBar.MenuTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textColor">#FF6454</item>
+        <item name="android:textSize">24dip</item>
+    </style>
+
+    <style name="MyActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#F0F</item>
+        <item name="android:textSize">24dip</item>
+    </style>
+    
+</resources>

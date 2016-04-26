@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="640dp"
+    android:orientation="vertical"
+    android:background="@drawable/newsdetail_frame"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+        	
+        <com.project.poom.ImageViewRounded
+            android:id="@+id/newspopup_user_img" 
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:src="@drawable/login_graphic"/>
+        
+        <LinearLayout 
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="center_vertical">
+            
+            <TextView 
+                android:id="@+id/newspopup_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nick"
+                android:textSize="12sp"
+                android:textColor="#686868"/>
+            
+            <TextView 
+                android:id="@+id/newspopup_enroll_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date"
+                android:textSize="11sp"
+                android:textColor="#A5A5A5"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+        
+        <ImageView 
+            android:id="@+id/newspopup_close"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="right"
+            android:src="@drawable/newsdetail_btn_delete"/>
+    </FrameLayout>
+    
+    <TextView 
+        android:id="@+id/newspopup_con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="20dp"
+        android:text="content"
+        android:textSize="14sp"
+        android:lineSpacingExtra="10dip"
+        android:textColor="#686868"/>
+
+    <ListView
+        android:id="@+id/newspopup_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:divider="#FFFFFF" >
+    </ListView>
+
+</LinearLayout>

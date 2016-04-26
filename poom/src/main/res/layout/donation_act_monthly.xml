@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="360dp"
+    android:layout_height="37dp"
+    android:background="#F6F6F6" >
+
+    <TextView
+        android:id="@+id/donation_act_monthly_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="10dp"
+        android:text="2014"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#686868"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/donation_act_monthly_strmonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="july"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#686868"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="12dp"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="12dp" >
+
+        <TextView
+            android:id="@+id/donation_act_monthly_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textColor="#ff877c"
+            android:textSize="12sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="월"
+            android:textSize="12sp"
+            android:textColor="#ff877c"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </LinearLayout>
+
+</FrameLayout>

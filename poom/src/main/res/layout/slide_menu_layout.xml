@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:background="@drawable/side_profile_bg" >
+
+        <LinearLayout
+            android:id="@+id/when_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <com.project.poom.ImageViewRounded
+                android:id="@+id/slide_profile_img"
+                android:layout_width="92dp"
+                android:layout_height="92dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="42dp"
+                android:src="@drawable/side_profile_sample" />
+
+            <TextView
+                android:id="@+id/slide_profile_nick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Poom point"
+                    android:textColor="#FF6454"
+                    android:textSize="12sp" />
+                
+                <TextView
+                    android:id="@+id/slide_profile_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="4dp"
+                    android:text="0"
+                    android:textSize="12sp" />
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="개"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:id="@+id/when_logout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:visibility="visible"
+            android:paddingTop="64dp">
+            
+            <ImageButton 
+                android:layout_width="113dp"
+                android:layout_height="98dp"
+                android:id="@+id/slide_profile_login_btn"
+                android:scaleType="fitXY"
+                android:src="@drawable/side_btn_login"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#707070"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/menu_write"
+            android:layout_width="187dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/side_btn_request" />
+
+        <Button
+            android:id="@+id/menu_myinterest"
+            android:layout_width="187dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/side_btn_footmark" />
+
+        <Button
+            android:id="@+id/menu_recharge_energy"
+            android:layout_width="187dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/side_btn_point" />
+
+        <Button
+            android:id="@+id/menu_dutorial"
+            android:layout_width="187dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/side_btn_tutorial" />
+
+        <Button
+            android:id="@+id/menu_setting"
+            android:layout_width="187dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/side_btn_setting" />
+    </LinearLayout>
+
+</LinearLayout>

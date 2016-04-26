@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item 
+        android:id="@+id/github"
+        android:icon="@drawable/action_btn_feed"
+        app:showAsAction="always"
+        android:title="@string/github_label"
+        android:titleCondensed="@string/github"
+        android:visible="true"
+        android:layout_width="24dp"
+        android:layout_height="26dp"/>
+
+</menu>

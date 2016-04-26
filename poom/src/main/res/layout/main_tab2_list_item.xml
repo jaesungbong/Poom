@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:orientation="horizontal" >
+
+        <com.project.poom.ImageViewRounded
+            android:id="@+id/main_tab2_list_item_img"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/four" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/myinterest_item_view_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="13dp"
+                    android:text="D-"
+                    android:textColor="#FF6454"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/main_tab2_list_item_d_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="5"
+                    android:textColor="#FF6454"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/main_tab2_list_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="한쪽 눈이 안보이는 희망이"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#686868"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <de.passsy.holocircularprogressbar.HoloCircularProgressBar
+                android:id="@+id/main_tab2_list_item_progress"
+                android:layout_width="65dp"
+                android:layout_height="65dp" />
+
+            <TextView
+                android:id="@+id/main_tab2_list_item_number_of_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="53"
+                android:textColor="#FF6454"
+                android:textSize="15sp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

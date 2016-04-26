@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="125dp" >
+
+        <EditText
+            android:id="@+id/join_three_password"
+            android:layout_width="241dp"
+            android:layout_height="40dp"
+            android:hint="비밀번호를 입력해 주세요"
+            android:inputType="textPassword"
+            android:textColorHint="#686868"
+            android:textSize="12sp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/login_input_frame" >
+        </EditText>
+        
+        <ImageView
+                android:id="@+id/delete_btn_paw1"
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="13dp"
+                android:src="@drawable/request_btn_delete"
+                android:visibility="gone" />
+    </FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="9dp" >
+
+        <EditText
+            android:id="@+id/join_three_password2"
+            android:layout_width="241dp"
+            android:layout_height="40dp"
+            android:hint="비밀번호 확인"
+            android:inputType="textPassword"
+            android:textColorHint="#686868"
+            android:textSize="12sp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/login_input_frame" >
+        </EditText>
+        
+        <ImageView
+                android:id="@+id/delete_btn_paw2"
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="13dp"
+                android:src="@drawable/request_btn_delete"
+                android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/join_three_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="warning"
+        android:textColor="#FF0000"
+        android:layout_marginTop="9dp"
+        android:visibility="invisible" />
+
+</LinearLayout>

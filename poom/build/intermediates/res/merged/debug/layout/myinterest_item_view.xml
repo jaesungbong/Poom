@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="360dp"
+    android:layout_height="84dp"
+    android:background="@drawable/main_list_bg" >
+
+    <ImageView
+        android:id="@+id/myinterest_item_view_mark_donate"
+        android:layout_width="37dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/myedit_mark_donate"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/myinterest_item_view_mark_complete"
+        android:layout_width="37dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/myedit_mark_complete"
+        android:visibility="invisible" />
+    
+        <ImageView
+        android:id="@+id/myinterest_item_view_mark_sign"
+        android:layout_width="37dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/myedit_mark_sign"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/myinterest_item_view_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="36dp"
+        android:text="척추뼈"
+        android:textColor="#686868"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/myinterest_item_view_img"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_gravity="right"
+        android:src="@drawable/abc_ic_clear" />
+
+</FrameLayout>

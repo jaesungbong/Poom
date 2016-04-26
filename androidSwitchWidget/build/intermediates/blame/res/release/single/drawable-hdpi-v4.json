@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\anDev\\work\\poom\\androidSwitchWidget\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\switch_track_green.xml",
+        "source": "E:\\anDev\\work\\poom\\androidSwitchWidget\\src\\main\\res\\drawable-hdpi\\switch_track_green.xml"
+    },
+    {
+        "merged": "E:\\anDev\\work\\poom\\androidSwitchWidget\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\background_fenced.xml",
+        "source": "E:\\anDev\\work\\poom\\androidSwitchWidget\\src\\main\\res\\drawable-hdpi\\background_fenced.xml"
+    },
+    {
+        "merged": "E:\\anDev\\work\\poom\\androidSwitchWidget\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\anDev\\work\\poom\\androidSwitchWidget\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

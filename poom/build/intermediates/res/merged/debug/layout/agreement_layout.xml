@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="100dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:background="#33a1a1a1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="서비스이용약관"
+                android:textColor="#686868"
+                android:textSize="15sp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="이 약관은 품에서 제공하는 서비스이용과 관련하여 회사와 고객간의 권리, 의무 및 기타 필요한 제반 사항을 정하고 있습니다. 서비스를 이용하시기 전에 이 약관을 주의깊게 읽어 보시기 바라며, 자세한 내용은 이 곳을 클릭해 확인하여 주시기 바랍니다."
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+            </ScrollView>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp" >
+
+            <Button
+                android:id="@+id/service_mark"
+                android:layout_width="98dp"
+                android:layout_height="17dp"
+                android:background="@drawable/btn_agree_off" />
+
+            <Button
+                android:id="@+id/service_marking"
+                android:layout_width="98dp"
+                android:layout_height="17dp"
+                android:background="@drawable/btn_agree_on"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:background="#33a1a1a1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="개인정보 취급방침"
+                android:textColor="#686868"
+                android:textSize="15sp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="품은 원활한 서비스의 이용을 위하여 다음과 같이 이용자의 개인정보를 수집, 이용함에 있어 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보 보호법 등 관련 법령에 따라 개인정보 수집 및 이용에 관하여 동의를 받고 있습니다. 자세한 내용은 이 곳을 클릭해 확인하여 주시기 바랍니다."
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+            </ScrollView>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp" >
+
+            <Button
+                android:id="@+id/userinfo_mark"
+                android:layout_width="98dp"
+                android:layout_height="17dp"
+                android:background="@drawable/btn_agree_off" />
+
+            <Button
+                android:id="@+id/userinfo_marking"
+                android:layout_width="98dp"
+                android:layout_height="17dp"
+                android:background="@drawable/btn_agree_on"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+</ScrollView>

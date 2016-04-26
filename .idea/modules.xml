@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidAysncHttpMulitPartModifyLibrary/androidAysncHttpMulitPartModifyLibrary.iml" filepath="$PROJECT_DIR$/androidAysncHttpMulitPartModifyLibrary/androidAysncHttpMulitPartModifyLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidHoloCircleProgressBar/androidHoloCircleProgressBar.iml" filepath="$PROJECT_DIR$/androidHoloCircleProgressBar/androidHoloCircleProgressBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidSwitchWidget/androidSwitchWidget.iml" filepath="$PROJECT_DIR$/androidSwitchWidget/androidSwitchWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidUniversalImageLoaderLibrary/androidUniversalImageLoaderLibrary.iml" filepath="$PROJECT_DIR$/androidUniversalImageLoaderLibrary/androidUniversalImageLoaderLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/horizontalVariableListView/horizontalVariableListView.iml" filepath="$PROJECT_DIR$/horizontalVariableListView/horizontalVariableListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poom.iml" filepath="$PROJECT_DIR$/poom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poom/poom-poom.iml" filepath="$PROJECT_DIR$/poom/poom-poom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingmenuSupportV7library/slidingmenuSupportV7library.iml" filepath="$PROJECT_DIR$/slidingmenuSupportV7library/slidingmenuSupportV7library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerindicatorlibrary/viewpagerindicatorlibrary.iml" filepath="$PROJECT_DIR$/viewpagerindicatorlibrary/viewpagerindicatorlibrary.iml" />
+    </modules>
+  </component>
+</project>

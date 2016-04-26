@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="null_image">#00000000</drawable>
+    <dimen name="null_dimen">20dp</dimen>
+    <drawable name="actionBarBackground">#FFFFFF</drawable>
+        
+    </resources>

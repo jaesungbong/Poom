@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ds_mainimg"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/donate_image_sample" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="#FFFFFF" >
+
+        <Button
+            android:id="@+id/ds_breakdown"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/donate_btn_receipt"
+            android:text="" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="26dp" >
+
+            <SeekBar
+                android:id="@+id/ds_progressBar"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:maxHeight="24dp"
+                android:minHeight="24dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:progressDrawable="@drawable/styled_progress"
+                android:thumb="@drawable/progress_icon_dog_to100" />
+
+            <LinearLayout
+                android:id="@+id/dt1_textpercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ds_progressBar"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="141dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/dt1_current_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="n"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ds_goal_fund"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="59dp"
+            android:text="3000000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF6454"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="15dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="58dp"
+            android:src="@drawable/con_icon_cheerup" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="94dp"
+            android:layout_marginTop="59dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/dtail_tab1_layout_header_cheerup_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="547"
+                android:textColor="#686868"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 명이 응원 중"
+                android:textColor="#686868"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f6f6f6"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/dtail_tab1_layout_header_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="11dp"
+                android:text="D-"
+                android:textColor="#FF6454"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dtail_tab1_layout_header_d_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="45"
+                android:textColor="#FF6454"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ds_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="아지네 마을 보호소"
+            android:textColor="#686868"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.project.poom.ImageViewRounded
+                android:id="@+id/dtail_tab1_layout_header_photo"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="14dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dtail_tab1_layout_header_nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="박재성"
+                    android:textColor="#686868"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Posted"
+                        android:textColor="#A1A1A1"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:id="@+id/dtail_tab1_layout_header_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="2014.7.28"
+                        android:textColor="#A1A1A1"
+                        android:textSize="11sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ds_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="content"
+            android:lineSpacingExtra="10dip"
+            android:textColor="#686868"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#f6f6f6" >
+
+        <EditText
+            android:id="@+id/keyword"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="291dp"
+            android:layout_height="29dp" 
+            android:hint="댓글로 응원메세지 남기기~!"
+            android:textColorHint="#686868"
+            android:paddingLeft="15dp"
+            android:textSize="12sp"
+            android:background="@drawable/donate_coments_frame">
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/keywordbtn"
+            android:layout_width="50dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="309dp"
+            android:background="@drawable/donate_coments_send"
+            android:text="" />
+    </FrameLayout>
+
+</LinearLayout>

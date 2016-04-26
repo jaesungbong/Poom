@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:background="#F6F6F6"
+    android:paddingBottom="14dp" >
+
+    <com.project.poom.ImageViewRounded
+        android:id="@+id/comment_icon"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/comment_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="10dp"
+        android:text="name"
+        android:textColor="#777777"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="34dp" >
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="comment"
+            android:textColor="#686868"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/del_rep"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/newsdetail_btn_delete" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/comment_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="date"
+        android:textColor="#686868"
+        android:textSize="11sp" />
+
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logout_dialog_frame"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:minHeight="200dp"
+    android:minWidth="300dp" >
+
+    <Button
+        android:id="@+id/logout_dialog_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소" />
+
+    <Button
+        android:id="@+id/logout_dialog_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="로그아웃" />
+
+</FrameLayout>

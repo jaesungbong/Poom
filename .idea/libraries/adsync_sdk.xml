@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="adsync-sdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/poom/libs/adsync-sdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
